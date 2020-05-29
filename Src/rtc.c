@@ -10,6 +10,7 @@
 uint8_t Sys_Hours=0;
 uint8_t Sys_Minutes=0;
 uint8_t Sys_Seconds=0;
+uint8_t Sys_MciroSeconds=0;
 
 void RTC_Init()
 {

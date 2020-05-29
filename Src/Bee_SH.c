@@ -41,5 +41,5 @@ void BeeSH_Tx(char *Bee_Msg,CrLf_State Clt)
     RTC_Get();
     printf("%s",Bee_Msg);
     if(1==Clt)printf("\n\r");
-    if(2==Clt)printf("\033[33m[SysTime:%d:%d:%d]\n\r\033[0m",Sys_Hours,Sys_Minutes,Sys_Seconds);
+    if(2==Clt)printf("\033[33m[SysTime:%d:%d:%d:%d]\n\r\033[0m",Sys_Hours,Sys_Minutes,Sys_Seconds,Sys_MciroSeconds);
 }
