@@ -1,8 +1,8 @@
 /*
  * @Author: Litthins 
- * @Date: 2020-05-29 19:18:36 
+ * @Date: 2020-06-01 23:07:16 
  * @Last Modified by:   Litthins 
- * @Last Modified time: 2020-05-29 19:18:36 
+ * @Last Modified time: 2020-06-01 23:07:16 
  */
 
 #include "rtc.h"
@@ -26,4 +26,5 @@ void RTC_Get(void)
   //Sys_Hour= ;
   //Sys_Minutes= ;
   //Sys_Seconds= ;
+  //Sys_MciroSeconds= ;
 }

@@ -1,8 +1,8 @@
 /*
  * @Author: Litthins 
- * @Date: 2020-05-29 19:18:16 
+ * @Date: 2020-06-01 23:06:56 
  * @Last Modified by:   Litthins 
- * @Last Modified time: 2020-05-29 19:18:16 
+ * @Last Modified time: 2020-06-01 23:06:56 
  */
 
 #include "Bee_SH.h"
@@ -41,5 +41,5 @@ void BeeSH_Tx(char *Bee_Msg,CrLf_State Clt)
     RTC_Get();
     printf("%s",Bee_Msg);
     if(1==Clt)printf("\n\r");
-    if(2==Clt)printf("\033[33m[SysTime:%d:%d:%d:%d]\n\r\033[0m",Sys_Hours,Sys_Minutes,Sys_Seconds,Sys_MciroSeconds);
+    if(2==Clt)printf("\033[33m[SysTime:%2d:%2d:%2d:%3d]\n\r\033[0m",Sys_Hours,Sys_Minutes,Sys_Seconds,Sys_MciroSeconds);
 }
