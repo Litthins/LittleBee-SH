@@ -3,7 +3,7 @@ LittleBee-SH is a light SHELL for MCU developers.Featuring colorful output with 
 
 LittleBee-SH是一款轻量化的SHELL，适合在微控制器开发活动中使用。该SHELL具有带时间标记的彩色文字输出，并且代码紧凑，便于移植、修改。
 
-![](.\Temp\ScreenShot_Bee_SH_.PNG)
+![](./Temp/ScreenShot_Bee_SH_.png)
 
 #### 历史版本：
 
